@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../fontawesome/css/all.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="Payment.css" />
+    <link rel="icon" href="../assets/icon/Order.ico" />
+    <title>Payment</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ffebeb;">
+      <div class="navbar-brand" style="margin-left: 10rem;" href="#">
+        <a href="../index.html">
+          <img src="../assets/Imgaes/Home/Logo.svg" alt="" srcset="" />
+        </a>
+      </div>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i
+          class="fa fa-bars"
+          aria-hidden="true"
+          style="color: rgb(240, 14, 14);"
+        ></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Restaurants <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ramadan Deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Become a Partner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="far fa-user" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      
+      <div class="row ">
+        <div class="col-md-7 col-12">
+
+       
+        <div class=" border rounded py-5 shadow-lg mb-5 px-5">
+          <h3 style="color: #ED1B24;">. Payment Method</h3>
+          <div>
+            <img class="mx-2 border px-5" src="../assets/Imgaes/Payment/master-card-png-3.png" style="max-height: 250px; max-width: 250px;" alt="" srcset="">
+            <img class="mx-2 border px-5" src="../assets/Imgaes/Payment/cash.png" style="max-height: 250px; max-width:250px;" alt="" srcset="">
+          </div>
+          <h4 class="my-5">
+            Card Details
+          </h4>
+          <form action="Save.html">
+            <div class="row">
+              <div class="col-8">
+                <input type="text" class="form-control" placeholder="Card number">
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="Cvc">
+              </div>
+            </div>
+            <div class="row my-4">
+              <div class="col-4">
+                <input type="text" class="form-control" placeholder="MM/YYYY">
+              </div>
+            </div>
+            <p style="font-size: smaller;">. enter your card details so that you place order the ammount will be deducted from your account</p>
+            <div class="text-center">
+
+              <button type="submit" class="btn text-white btn-primary my-5" style="background-color: #0DD6FF;font-weight: bolder; padding: 0.5rem 6rem;">Save</button>
+            </div>
+          </form>
+
+
+        </div>
+
+        <div class=" border rounded py-5 shadow-lg my-5 px-5">
+          <h3 style="color: #ED1B24;">Delivery Details</h3>
+          
+          <form>
+            <div class="row  my-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Address 1">
+              </div>
+            </div>
+              <div class="row  my-4">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Address 2">
+                </div>
+              </div>
+              
+           
+            <div class="row my-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+            </div>
+            <p class="ml-3 mr-5" style="font-size: smaller;">Your order will be Deliver to you at the above mentioned address and the rider will call you on your given number in case of any kind of problem</p>
+            <div class="text-center">
+
+              <button type="submit" style="background-color: #0DD6FF;font-weight: bolder;padding: 0.5rem 6rem;" class="btn btn-primary btn-block text-white my-5" >Place Order</button>
+            </div>
+          </form>
+
+          
+        </div>
+
+      </div>
+        <div class="offset-md-1 col-12 col-md-3">
+         <div class="row">
+           <div class="col-8">
+              <h6>Big Mighty Burger</h6>
+              <small>Alaska Restaurant</small>
+           </div>
+           <div class="col-4">
+                    <i>
+                      $20
+                    </i>
+           </div>
+           <div class="col-8 mt-3">
+           
+            <small>Subtotal</small>
+         </div>
+         <div class="col-4 mt-3">
+                  <i>
+                    $60
+                  </i>
+         </div>
+         <div class="col-8">
+         
+          <small>Delivery Fee</small>
+       </div>
+       <div class="col-4">
+                <i>
+                  $20
+                </i>
+       </div>
+       <div class="col-8 mt-2 " style="color: #ED1B24;">
+        
+        <small>Total</small>
+     </div>
+     <div class="col-4 mt-2" style="color: #ED1B24;">
+              <i>
+                $80
+              </i>
+     </div>
+         </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="Payment.js"></script>
+  </body>
+</html>
